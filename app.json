@@ -1,0 +1,17 @@
+{
+  "name": "Matrix",
+  "description": "Matrix produces a virtual office for remote teams. In this project, you can run a virtual office to simulate the physical environment",
+  "repository": "https://github.com/ResultadosDigitais/matrix",
+  "keywords": ["online workspace", "virtual office", "remote teams"],
+  "stack": "container", 
+  "env": {
+    "GOOGLE_CREDENTIAL": {
+      "description": "Google Application Credential",
+      "value": "xxxxxxx.apps.googleusercontent.com"
+    },
+    "ENFORCE_SSL": {
+      "description": "If you running in HTTPS this variable forces redirect to HTTPS when user access with HTTP",
+      "value": "true"
+    }
+  }
+}
